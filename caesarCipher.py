@@ -4,13 +4,13 @@
 import pyperclip
 
 # The string to be encrypted/decrypted
-message = '"You can show black is white by argument," said Filby, "but you will never convince me."'
+message = 'XCBSw88S18A1S 2SB41SE .8zSEwAS50D5A5x81V'
 
 # The encrption/decryption key:
-key = 8
+key = 22
 
 # Whether the program encrypts or decrypts:
-mode = 'encrypt' # Set to either 'encrypt' or 'decrypt'
+mode = 'decrypt' # Set to either 'encrypt' or 'decrypt'
 
 # Every possible symbol that can be encrypted:
 SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'#`~@#$%^&*()_+-=[]{}|;:<>,/'
