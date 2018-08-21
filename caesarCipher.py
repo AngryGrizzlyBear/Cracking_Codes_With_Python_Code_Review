@@ -1,4 +1,4 @@
-# Caesar Cipher
+s# Caesar Cipher
 # https://www.nostarch.com/crackingcodes/ (BDS Licensed)
 
 import pyperclip
@@ -13,7 +13,7 @@ key = 13
 mode = 'decrypt' # Set to either 'encrypt' or 'decrypt'
 
 # Every possible symbol that can be encrypted:
-SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
+SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.`~@#$%^&*()_+-=[]{}|;:<>,/'
 
 # Store the encrypted/decrypted form of the message:
 translated = ''
