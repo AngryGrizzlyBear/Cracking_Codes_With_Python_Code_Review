@@ -1,19 +1,19 @@
-s# Caesar Cipher
+# Caesar Cipher
 # https://www.nostarch.com/crackingcodes/ (BDS Licensed)
 
 import pyperclip
 
 # The string to be encrypted/decrypted
-message = 'guv6Jv6Jz!J6rp5r7Jzr66ntrM'
+message = '"You can show black is white by argument," said Filby, "but you will never convince me."'
 
 # The encrption/decryption key:
-key = 13
+key = 8
 
 # Whether the program encrypts or decrypts:
-mode = 'decrypt' # Set to either 'encrypt' or 'decrypt'
+mode = 'encrypt' # Set to either 'encrypt' or 'decrypt'
 
 # Every possible symbol that can be encrypted:
-SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.`~@#$%^&*()_+-=[]{}|;:<>,/'
+SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'#`~@#$%^&*()_+-=[]{}|;:<>,/'
 
 # Store the encrypted/decrypted form of the message:
 translated = ''
