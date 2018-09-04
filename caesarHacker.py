@@ -1,7 +1,7 @@
 # Caesar Cipher Hacker
 # https://www.nostarch.com/crackingcodes/ (BSD Licensed)
 
-message = 'guvv6Jv6Jz!J6rp5r7Jzr66ntrM'
+message = "Zfbi,!tif!xpvme!qspcbcmz!fbu!nfA"
 SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUBWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
 
 # Loop through every possibles key:
@@ -31,3 +31,12 @@ for key in range(len(SYMBOLS)):
 
     # Display every possible decryption:
     print('Key #%s: %s' % (key, translated))
+
+# Exercise Decrypted Answers:
+# I love my kitty,
+# My kitty loves me,
+# Together we're happy as can be,
+# Though my head has suspicions,
+# That I keep under my hat,
+# Of what if I shrank to the size of a rat.
+# Yeah, she would probably eat me.
