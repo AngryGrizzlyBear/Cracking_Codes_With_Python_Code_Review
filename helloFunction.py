@@ -11,3 +11,5 @@ def func(param):
 spam = 'Hello'
 func(spam)
 print(spam)
+
+# read through the chapter.
